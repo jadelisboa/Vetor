@@ -1,0 +1,29 @@
+Algoritmo "NOME_SOBRENOME"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 25/03/2024
+Var
+// Seção de Declarações das variáveis 
+NOMES: VETOR [1..5] DE CARACTERE
+SOBRENOMES: VETOR [1..5] DE CARACTERE
+NOTAS1: VETOR [1..5] DE REAL
+X: INTEIRO
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+  PARA X DE 1 ATÉ 5 FACA
+   ESCREVAL("DIGITE SEU NOME: ")
+   LEIA(NOMES[X])
+
+   ESCREVAL("DIGITE SEU SOBRENOME: ")
+   LEIA(SOBRENOMES[X])
+   
+   ESCREVAL("DIGITE SUA NOTA1: ")
+   LEIA(NOTAS1[X])
+   
+   ESCREVAL(NOMES[X],  SOBRENOMES [X],  NOTAS1[X])
+   
+  FIMPARA
+  Fimalgoritmo
+  
