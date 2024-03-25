@@ -1,0 +1,17 @@
+Algoritmo "CORES"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 25/03/2024
+Var
+// Seção de Declarações das variáveis 
+ VETOR_CORES: VETOR [1..10] DE CARACTERE
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   ESCREVAL("DIGITE UMA COR")
+   LEIA(VETOR_CORES[1])
+   
+   ESCREVAL(VETOR_CORES[1])
+
+  Fimalgoritmo
