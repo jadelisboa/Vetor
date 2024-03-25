@@ -1,0 +1,42 @@
+Algoritmo "Impar_Par"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 25/03/2024
+Var
+// Seção de Declarações das variáveis 
+numeros: INTEIRO
+X: INTEIRO
+VETOR_PARES: VETOR [1..10] de INTEIRO
+INDICE_PAR: INTEIRO
+VETOR_IMPARES: VETOR [1..10] de INTEIRO
+INDICE_IMPAR: INTEIRO
+QNT: INTEIRO
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   INDICE_PAR <- 0
+  INDICE_IMPAR <- 0
+  
+   ESCREVAL("Quantos numeros você deseja digitar?")
+   LEIA(QNT)
+   
+   PARA X DE 1 ATE QNT FACA
+   ESCREVAL("Qual numero você deseja digitar?")
+   LEIA(numeros)
+   
+    SE(numeros % 2 = 0) ENTAO
+    INDICE_PAR <- INDICE_PAR + 1
+    VETOR_PARES[INDICE_PAR] <- numeros
+
+
+
+    SENAO
+    INDICE_IMPAR <- INDICE_IMPAR + 1
+    VETOR_IMPARES[INDICE_IMPAR] <- numeros
+
+    FIMSE
+   FIMPARA
+  Fimalgoritmo
+  
